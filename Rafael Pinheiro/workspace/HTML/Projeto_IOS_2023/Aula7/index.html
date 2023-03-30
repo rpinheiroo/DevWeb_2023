@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="#">
+        <!-- Campo nome -->
+        <label>Digite seu nome</label>
+        <input type="text" required> <br>
+    
+        <!-- Campo número -->
+        <label>Digite sua idade</label>
+        <input type="number" required> <br>
+
+        <!-- Campo nota -->
+        <label>Digite sua nota</label>
+        <input type="number" required > <br>
+
+        <input type="submit" value="Enviar"> <br><hr>
+
+        <!--  Radio -->
+
+        <!-- Input para aprovado, reprovado e recuperação -->
+        <label>Status do aluno</label> <br>
+
+        <!-- Aprovado -->
+        <input type="radio" id="aprov" name="status" >
+        <label for="aprov">Aprovado</label>  <br>
+
+        <!-- Reprovado -->
+        <input type="radio" id="reprov" name="status" > 
+        <label for="reprov">Reprovado</label> <br>
+
+        <!-- Recuperação -->
+        <input type="radio" id="rec" name="status" >
+        <label for="rec">recuperação</label>  <br><hr>
+
+        <!-- Checkbox -->
+        <label>Exercícios Concluídos</label><br>
+
+        <input type="checkbox">
+        <label >Exercício 01</label><br>
+
+        <input type="checkbox">
+        <label >Exercício 02</label><br>
+
+        <input type="checkbox">
+        <label >Exercício 03</label><br>
+
+        <input type="checkbox">
+        <label >Exercício 04</label><br>
+
+        <input type="checkbox">
+        <label >Exercício 05</label><br><hr>
+
+        <!-- Range -->
+        <label for="">Você gostou do curso ?</label> <br>
+
+        <label for="">NÃO</label>
+        <input type="range">
+        <label for="">SIM</label><br><hr>
+
+        <!-- Select LISTA SUSPENSA -->
+        <label for="lista1">INSTITUIÇÕES</label> <BR>
+
+        <select name="" id="lista1">
+            <option value="">IOS</option>
+            <option value="">PROA</option>
+            <option value="">GENERATION</option>
+            <option value="">RECODE</option>
+        </select><br><hr>
+
+        <!-- Datalist -->
+
+        <label for="">COMIDAS</label><br>
+
+        <input type="text" list="comida">
+        <datalist id="comida">
+            <option value="Fígado">
+            <option value="Arroz">
+            <option value="Fogazza">
+            <option value="Feijão">
+            <option value="Abacate">
+        </datalist><br><br> <hr>
+
+        <!-- Textarea -->
+        <label for="">Local para lamentações</label> <br>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Digite aqui"></textarea>
+
+        
+
+
+    </form>
+    
+</body>
+</html>
