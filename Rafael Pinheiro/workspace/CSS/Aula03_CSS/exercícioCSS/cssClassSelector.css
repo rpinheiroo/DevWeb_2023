@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+/* body {
+    background-color: darkgrey;
+}  */
+
+h4 {
+    text-align: center;
+}
+
+p {
+    color: blue;
+    text-align: center;
+}
+
+.cor_texto {
+    color: darkred;
+}
+
+p.fundo {
+    background-color: rgb(96, 216, 96);
+}
