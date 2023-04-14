@@ -1,0 +1,37 @@
+
+#cabecalho{
+    background-image: url('fundo.jfif');
+    background-size: cover;
+    background-position: center;
+     height: 72vh;                         /* Medida relativa VH */
+    text-align: center;
+    padding: 0 20px;                        /* Medida Absoluta PX */
+    color: #0d7291;
+    font-size: 1.5em;                       /* Medida relativa EM */
+
+}
+
+
+.botao{
+    font-size: 0,1cm;                         /* Medida Absoluta CM */
+    text-decoration: none;
+    color: #0d587a;
+    border: #03112c 1px solid;
+    padding: 10px 20px;
+    border-radius: 10pt;                    /* Medida Absoluta PT */
+    margin: 20px;
+}
+
+#paragrafo1{
+    border: 1px solid;
+    padding: 15px;
+
+}
+
+#secao{
+    padding: 20px;
+    background: #a4b6bb;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;                      /* Medida relativa REM */
+}
