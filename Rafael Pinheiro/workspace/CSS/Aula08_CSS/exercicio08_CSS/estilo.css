@@ -34,3 +34,9 @@ body{
 #img3{
     float: left;
 }
+
+@media (max-width:414px){
+    .classeMain div{
+        width: 100%;
+    }
+}

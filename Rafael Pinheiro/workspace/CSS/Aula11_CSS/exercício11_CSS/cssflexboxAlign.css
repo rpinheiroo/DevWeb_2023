@@ -1,0 +1,45 @@
+@charset "uft-8";
+
+img{
+    width: 70px;
+    height: 70px;
+    padding: 50px;
+    al
+}
+
+.container div{
+    border: 1px #000 solid;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    align-items: stretch;
+}
+
+.caixa1{
+    flex: 2;
+    order: 3;
+    align-self: flex-start;
+}
+
+.caixa2{
+    flex: 4;
+    order: 4;
+}
+
+.caixa3{
+    flex: 3;
+    order: 1;
+}
+
+.caixa4{
+    flex: 2;
+    order: 1;
+}
+
+/* h4{
+    background-color: rgb(61, 60, 60);
+    padding: 50px;
+    color: white;
+} */
