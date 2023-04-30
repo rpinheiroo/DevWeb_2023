@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+*{
+    background-color: #464b6b;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+
+.imgClass {
+    max-width: 200px;
+    max-height: 300;
+    text-align: center;
+}
+
+.sectionClass {
+    border: 1px solid #140f07;
+}
+
+div h3 {
+    text-align: center;
+    color: #82877c;
+}
+
+img{
+    text-align: center;
+}
+
+.img-container {
+    text-align: center;
+  }
